@@ -18,7 +18,6 @@ apt_debian_contrib_nonfree_enable: false
 
 apt_dependencies:
   - python-apt
-  - aptitude
 
 apt_update: true
 apt_update_cache_valid_time: 3600
