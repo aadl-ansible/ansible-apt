@@ -56,8 +56,8 @@
     - apt-upgrade
 
 - name: clean
-  command: apt-get -y clean
-  changed_when: false
+  apt:
+    autoclean: yes
   when: apt_clean
   tags:
     - configuration
